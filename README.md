@@ -21,8 +21,8 @@ Insights and recommendations are provided across key areas:
 
 ---
 
->  The notebook used to clean the food supply data can be found [here](notebooks/Cleaning_food.ipynb)  
->  The notebook used to clean the indicators data can be found [here](notebooks/Cleaning_indicators.ipynb)  
+>  The notebook used to clean the food supply data can be found [here](notebooks/Cleaning_Food.ipynb)  
+>  The notebook used to clean the indicators data can be found [here](notebooks/Cleaning_Indicators.ipynb)  
 >  The Dashboards can be found [here](notebooks/Dashboards.ipynb)  
 
 ---
