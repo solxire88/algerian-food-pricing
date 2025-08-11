@@ -21,9 +21,9 @@ Insights and recommendations are provided across key areas:
 
 ---
 
->  The notebook used to clean the food supply data can be found [here]()  
->  The notebook used to clean the indicators data can be found [here]()  
->  The Dashboards can be found [here]() 
+>  The notebook used to clean the food supply data can be found [here](notebooks/Cleaning_food.ipynb)  
+>  The notebook used to clean the indicators data can be found [here](notebooks/Cleaning_indicators.ipynb)  
+>  The Dashboards can be found [here](notebooks/Dashboards.ipynb)  
 
 ---
 
@@ -79,9 +79,8 @@ Combined, these datasets provide a **time-series structure** where the monthly c
 1. **Trade shifts are tightening local food supply.** With **exports rising** and **imports declining**, domestic availability of key staples is shrinking—contributing to price inflation.
 2. **Production is improving—but not fast enough.** Algeria’s food production index shows modest growth, but not enough to offset currency pressure and reduced imports.
 3. **Currency depreciation is amplifying import costs.** The **Algerian Dinar's fall against the US Dollar** has made food imports significantly more expensive.
-4. **Staple food prices are projected to rise further in the next 12 months**, emphasizing the urgency of a food security strategy.
 
-![Visualization of price trends across key commodities](path_to_chart_1.png)
+![Visualization of price trends across key commodities](dashboard/FoodPricesCommodities.png)
 
 ---
 
@@ -89,34 +88,33 @@ Combined, these datasets provide a **time-series structure** where the monthly c
 
 ### Trade Dynamics and Food Supply
 
-* Imports of goods and services declined 15% between 2019 and 2023, while exports rose by 12%.
-* The gap between import volumes and local availability coincided with a **20–30% increase in local staple prices**.
-* The decline in imports is not offset by local production, especially for wheat-based products like pasta.
+* Imports of goods and services declined 26% between 2016 and 2022, while exports rose by 47%.
+* The gap between import volumes and local availability coincided with a **100–130% increase in local staple prices**.
 * Export incentives may be unintentionally diverting supply away from domestic markets.
 
-![Imports and Exports vs. Price]()
+![Imports and Exports vs. Price](dashboard/Goods.png)
 
 ---
 
 ### Agricultural Production and Food Security
 
-* The food production index increased from 100 in 2015 to 115 in 2023—a modest improvement.
+* The food production index increased from 100 in 2015 to 111 in 2022—a modest improvement.
 * However, this increase lags behind **demand growth**, especially in urban centers.
 * Agricultural land use remains static at ~17% of land area, indicating no significant scale-up in farming capacity.
 * Algeria’s food production growth does not align with its reduction in imports, creating a **supply shortfall**.
 
-![Production vs Prices]()
+![Production vs Prices](dashboard/FoodInsecurity.png)
 
 ---
 
 ### Currency Depreciation and Import Costs
 
-* The Algerian Dinar depreciated 30% against the USD from 2019 to 2023.
-* USD-denominated import costs rose sharply, especially for wheat, rice, and oil.
+* The Algerian Dinar depreciated 29% against the USD from 2015 to 2022.
+* USD-denominated import costs rose sharply, especially for cereals, rice, and vegetables.
 * Local market prices track closely with USD price movements, especially for imported goods.
 * Currency-driven cost increases are passed directly to consumers due to lack of subsidy buffers.
 
-![Exchange rate vs price index]()
+![Exchange rate vs price index](dashboard/Inflation.png)
 
 
 # Recommendations:
@@ -133,7 +131,7 @@ Based on the insights and findings above, we would recommend the **Ministry of A
   → **Reduce dependency on volatile exchange rate swings.**
 
 * **Improve import policy agility.**  
-  → **Enable faster trade responses to local shortages (e.g., fast-track wheat imports).**
+  → **Enable faster trade responses to local shortages (e.g., fast-track cereal imports).**
 
 * **Introduce early warning systems** using price and macroeconomic forecasting.  
   → **Allow policy teams to act before price spikes hit consumers.**
